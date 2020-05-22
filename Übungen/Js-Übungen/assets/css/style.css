@@ -1,0 +1,38 @@
+/* img{
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+}
+
+.js-übung{
+    height: 100px;
+    width: 200px;
+    background-color: red;
+    transition: 2s;
+}
+
+section{
+    display: flex;
+    justify-content:space-around;
+  }
+  div{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+  }
+  #cercle{
+    height: 100px;
+    width: 100px;
+    border:1px solid black;
+    border-radius:50%
+  }
+  #rectangle{
+    height: 100px;
+    width: 200px;
+    border:1px solid black;
+  }
+  #square{
+    height: 100px;
+    width: 100px;
+    border:1px solid black;
+  } */

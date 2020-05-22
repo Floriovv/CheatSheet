@@ -1,0 +1,136 @@
+.body{
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    background-color: moccasin;
+    position: relative;
+}
+
+#ul{
+    display: block;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+li{
+    display: inline;
+    padding: 10px;
+}
+
+#li1{
+    color: green;
+}
+
+#li2{
+    color: red;
+}
+
+#li3{
+    color: blue;
+}
+
+#sec{
+    position: relative;
+    background-color: grey;
+    top: 100px;
+    height: 100vh;
+}
+
+#container1{
+    padding: 5px;
+    position: absolute;
+    top: 100px;
+    border: 1px solid black;
+    left: 50%;
+    right: 50%;
+    transform: translate(-90%, -10%);
+    width: 500px;
+}
+
+#visit1{
+    position: absolute;
+    top: 220px;
+    left: 30%;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: green;
+}
+
+#container2{
+    padding: 5px;
+    position: absolute;
+    top: 300px;
+    border: 1px solid black;
+    left: 50%;
+    right: 50%;
+    transform: translate(-90%, -10%);
+    width: 500px;
+    color: red;
+}
+
+#visit2{
+    position: absolute;
+    top: 400px;
+    left: 30%;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+#sec2{
+    position: relative;
+    background-color: lightgray;
+    top: 100px;
+    height: 100vh;
+}
+
+#container3{
+    padding: 5px;
+    position: absolute;
+    top: 100px;
+    border: 1px solid black;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    color: blue;
+}
+
+#container4{
+    padding: 5px;
+    position: absolute;
+    top: 300px;
+    border: 1px solid black;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    color: red;
+}
+
+#link1{
+    position: absolute;
+    top: 200px;
+    left: 40%;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+#link2{
+    position: absolute;
+    top: 400px;
+    left: 40%;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 30px;
+    text-decoration: none;
+}

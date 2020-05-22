@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+}
+
+.cf{
+  background-color: brown;
+  height: 50vh;
+}
+
+.menu-content{
+  background-color: red;
+  height: 100px;
+  width: 120px;
+  position: absolute;
+  left: -100%;
+  top: 50px;
+}
+
+span{
+  display: inline-block;
+  height: 0.5px;
+  width: 30px;
+  border: 2px solid black;
+  z-index: 1;
+  opacity: 1;
+}
+
+span:nth-of-type(2){
+  top: 2px;
+}
+
+.checkbox-trigger{
+  height: 20px;
+  width: 20px;
+  z-index: 2;
+  opacity: 0;
+}
+
+.checkbox-trigger:checked~ .menu-content{
+  left: 0;
+}
+
+.hamburgerbrötchen{
+  display: inline-block;
+  margin: 5px;
+  height: 50px;
+  width: 35px;
+}

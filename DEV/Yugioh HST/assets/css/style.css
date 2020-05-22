@@ -1,0 +1,211 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.anchor-nodeco{
+    text-decoration: none;
+    color: unset;
+}
+
+.header{
+    background-color: #861717;
+    display: flex;
+    flex-direction: row;
+    max-height: 165px;
+    position: fixed;
+    width: 100vw;
+    max-height: 100%;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0px 10px;
+    overflow: hidden;
+    margin: 1px;
+}
+
+.list{
+    padding: 5px 20px;
+    color: rgb(226, 211, 211);
+    background-color: #621313;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: padding 1s, font-size .5s;
+}
+
+.list:active{
+    background-color: #420e0e;
+}
+
+.list:hover, .hover{
+    z-index: 9999;
+    border: .5px solid #fff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 25px;
+    margin: 0;
+    transition: padding .5s, font-size .5s;
+}
+
+.list-border-left{
+    border-radius: 10px 0px 0px 10px;
+}
+
+.list-border-left:hover{
+    border-radius: 10px;
+}
+
+.list-border-right{
+    border-radius: 0px 10px 10px 0px;
+}
+
+.list-border-right:hover{
+    border-radius: 10px;
+}
+
+.list-border-middel:hover, .hover{
+    border-radius: 10px;
+}
+
+.logo{
+    height: 100px;
+    width: 150px;
+}
+
+/* HAMBURGER */
+
+.row{
+    margin-left: 100px;
+}
+
+label.hamburg { 
+    display: block;
+    background: #555; width: 75px; height: 50px; 
+    position: relative; 
+    margin-left: auto; margin-right: auto;
+    border-radius: 4px; 
+}
+
+input #hamburg {
+    display:none
+}
+
+.line { 
+    position: absolute; 
+    left:10px;
+    height: 4px; width: 55px; 
+    background: #fff; border-radius: 2px;
+    display: block; 
+    transition: 0.5s; 
+    transform-origin: center; 
+}
+
+.line:nth-child(1) { top: 12px; }
+.line:nth-child(2) { top: 24px; }
+.line:nth-child(3) { top: 36px; }
+
+#hamburg:checked + .hamburg .line:nth-child(1){
+    transform: translateY(12px) rotate(-45deg);
+}
+
+#hamburg:checked + .hamburg .line:nth-child(2){
+    opacity:0;
+}
+
+#hamburg:checked + .hamburg .line:nth-child(3){
+    transform: translateY(-12px) rotate(45deg);
+}
+
+/* HEADER END */
+
+.grid-layout{
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #F6F6F6;
+    height: 100%;
+    width: 100%
+}
+
+.section{
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+}
+
+.aside{
+    background-image: url(https://img.freepik.com/free-vector/3d-hex-blocks-white-abstract-background_87538-965.jpg?size=626&ext=jpg);
+    height: 100vh;
+    width: 100%;
+}
+
+.aside-left{
+    
+}
+
+.aside-right{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: green;
+    height: 100%;
+    width: 100%;
+}

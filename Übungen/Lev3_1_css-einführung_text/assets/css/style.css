@@ -1,0 +1,26 @@
+h1 {
+    font-size: 48px;
+    background-color: azure;
+    text-align: center;
+    font-family: tahoma;
+}
+
+.ersterparagraf{
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+h2{
+    text-shadow: 1px 1px 0 brown;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+}
+
+ul{
+    background-color: lightgray;
+}
+
+li{
+    background-color: gray;
+    line-height: 40px;
+}

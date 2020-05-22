@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://www.benq.com/content/dam/b2c/en-au/campaign/4k-monitor/kv-city.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: 100vw 100vh ;
+    background-repeat: no-repeat;
+    font-size: 10px;
+}
+
+h1{
+    background-color: aqua;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    text-align: center;
+    height: 3rem;
+    font-size: 2rem;
+}
+
+article{
+    font-family: Helvetica;
+    background-color: lightgray;
+    text-align: center;
+    padding-bottom: 5em;
+    padding-top: 5em;
+    margin-left: 5em;
+    margin-right: 5em;
+    font-size: 1.5em;
+    border: 1em solid black;
+}
+
+

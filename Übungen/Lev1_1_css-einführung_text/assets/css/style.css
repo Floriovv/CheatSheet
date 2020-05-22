@@ -1,0 +1,35 @@
+h2 {
+    font-family: Arial;
+    font-size: 48px;
+    background-color: lightgray
+}
+
+p{
+    color: #333;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.firstLI{
+    color: #777;
+    font-size: 20px;
+    margin-left: 40px;
+    padding-left: 100px;
+    text-decoration: underline;
+}
+
+.secondLI{
+    color: #777;
+    font-size: 20px;
+    margin-left: 40px;
+    padding-left: 250px;
+    text-decoration: underline;
+}
+
+.thirdLI{
+    color: #777;
+    font-size: 20px;
+    margin-left: 40px;
+    padding-left: 350px;
+    text-decoration: underline;
+}

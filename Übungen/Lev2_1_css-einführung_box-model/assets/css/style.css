@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    padding: 20px;
+}
+
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    width: 400px;
+    text-decoration: underline dashed red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 2px solid black;
+    border-radius: 25%;
+    background-color: lightgrey;
+    padding-bottom: 30px;
+}
+
+h1:hover{
+    color: blue;
+    font-size: 50px;
+}
+
+h1::first-letter{
+    color: green;
+    font-size: 50px;
+}
+
+p:first-of-type{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1000px;
+    border: 2px solid black;
+    padding: 25px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+p:nth-of-type(2){
+    margin-right: auto;
+    margin-left: auto;
+    width: 1000px;
+    border: 2px solid black;
+    padding: 25px;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+body h2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    padding: 25px 25px 25px 25px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: lightgrey;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body h2+p{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1000px;
+    border: 2px solid black;
+    padding: 25px;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+body ol{
+    color: red;
+    margin: auto;
+    width: 320px;
+    text-align: center;
+    list-style: none;
+    border: 2px solid darkred;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body ol:hover{
+    color: black;
+    margin: auto;
+    width: 600px;
+    text-align: center;
+    list-style: none;
+    border: 2px solid darkred;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    cursor: zoom-in;
+}
+
+body h3{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 25px 25px 25px 25px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: lightgrey;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3+p{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1000px;
+    border: 2px solid black;
+    padding: 25px;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+ul{
+    color: red;
+    margin: auto;
+    width: 320px;
+    text-align: center;
+    list-style: none;
+    border: 2px solid darkred;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ul:hover{
+    color: black;
+    margin: auto;
+    width: 500px;
+    text-align: center;
+    list-style: none;
+    border: 2px solid darkred;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    cursor: zoom-in;
+}
+
+ul+p{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1000px;
+    border: 2px solid black;
+    padding: 25px;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+p:last-of-type{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1000px;
+    border: 2px solid black;
+    padding: 25px;
+    font-family: monospace;
+    font-size: 15px;
+}

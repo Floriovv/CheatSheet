@@ -1,0 +1,32 @@
+html{
+    font-size: 1cm;
+}
+
+section{
+    border: 0.2cm solid black;
+    border-radius: 1cm;
+    text-shadow: 1px 1px black;
+    background-color: beige;
+}
+
+article h2{
+    font-size: 15mm;
+    text-shadow: 1.5mm 1.5mm black;
+    font-family: Helvetica;
+}
+
+article p{
+    font-size: 7mm;
+}
+
+article li:first-of-type{
+    font-size: 0.7cm;
+}
+
+article li:nth-of-type(2){
+    font-size: 1.0cm;
+}
+
+article li:last-of-type{
+    font-size: 1.2cm;
+}

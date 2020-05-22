@@ -1,0 +1,103 @@
+
+body, html{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-sec{
+    background-color: #1F2125;
+    width: 100vw;
+    height: 10vh;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid #fff;
+}
+
+ul{
+    text-align: right;
+    padding-top: 20px;
+    margin-right: 10px;
+}
+
+li{
+    color: #fff;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 2px;
+    top: 5px;
+    right: 5px;
+    display: inline-block;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-sec{
+    background-color: #1F2125;
+    width: 100vw;
+    height: 90vh;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid grey;
+    position: relative;
+    overflow: hidden;
+}
+
+h1{
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+p{
+    color: #84624B;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    letter-spacing: 5px;
+}
+
+.schlafz, .wohnz, .bad{
+    height: 500px;
+    margin-top: 60px;
+    margin-left: 50px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.schlafz{
+    margin-left: 600px;
+    padding-right: 0;
+}
+
+.bad{
+    margin-left: 20px;
+}
+
+.twitter{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+}
+
+.facebook{
+    position: absolute;
+    height: 60px;
+    bottom: 20px;
+    left: 100px;
+}
+
+.insta{
+    position: absolute;
+    height: 60px;
+    bottom: 20px;
+    left: 180px;
+}
+

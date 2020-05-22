@@ -1,0 +1,46 @@
+.card
+  background-color: $color-white
+  box-shadow: $box-shadow
+  border-radius: 4px
+  margin-bottom: 16px
+  padding: 16px
+
+  &--secondary
+    @extend .card
+    border: 1px solid $color-blue
+    color: $color-blue
+
+  &--inverted
+    @extend .card
+    background-color: $color-gray-darker
+    box-shadow: $box-shadow-inverted
+    color: $color-white
+
+  &--error
+    @extend .card
+    border: 1px solid $color-red
+    color: $color-red
+
+  &--outline
+    @extend .card
+    background-color: transparent
+    border: 1px solid $color-black
+    box-shadow: none
+    color: $color-black
+
+    &.card--secondary
+      border-color: $color-blue
+      color: $color-blue
+
+    &.card--inverted
+      border-color: $color-gray-dark
+      color: $color-white
+
+    &.card--error
+      border-color: $color-red
+      color: $color-red
+
+.card-media
+  margin: -16px -16px 16px
+  width: 100%
+  width: calc(100% + 32px)

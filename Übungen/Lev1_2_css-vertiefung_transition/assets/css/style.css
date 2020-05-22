@@ -1,0 +1,36 @@
+.container{
+  width: 1000px;
+  height: 201px;
+  background-color: lightgray;
+  border: 2px solid black;
+}
+
+.container:hover .red{
+  animation-name: test;
+  animation-duration: 4s;
+}
+
+.container:hover .green{
+  animation-name: test;
+  animation-duration: 3s;
+  animation-delay: 1s;
+}
+
+@keyframes test{
+  from {margin-left: 0;}
+  to {margin-left: 900px;}
+ }
+
+.red{
+  height: 99px;
+  width: 99px;
+  background-color: red;
+  border: 1px solid black;
+}
+
+.green{
+  height: 99px;
+  width: 99px;
+  background-color: green;
+  border: 1px solid black;
+}

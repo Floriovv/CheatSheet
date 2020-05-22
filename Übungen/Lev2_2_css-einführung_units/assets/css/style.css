@@ -1,0 +1,27 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    background-image: url(/assets/img/4k.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-size: 100vw 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+h3{
+   padding-left: 30vw;
+   padding-right: 30vw;
+   background-color: gray;
+   margin-left: 10vw;
+   margin-right: 10vw;
+   margin-top: 0;
+   width: 20vw;
+   text-align: center;
+}
+

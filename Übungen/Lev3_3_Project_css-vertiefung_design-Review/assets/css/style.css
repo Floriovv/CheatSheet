@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.title{
+  justify-self: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  transform: translate(-15%, -15%);
+}
+
+li{
+  display: inline-block;
+  margin-right: 40px;
+}
+
+button{
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 100%;
+  font-size: 15px;
+  margin-top: 25px;
+}
+
+.section-1{
+  background-image: url(../img/home_conversion.png);
+  height: 100%;
+}

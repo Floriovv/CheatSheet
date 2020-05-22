@@ -1,0 +1,31 @@
+body{
+  margin: 0;
+}
+
+.nummer{
+  font-size: 60px;
+  text-align: center;
+}
+
+.container{
+  display: inline-block;
+  height: 50px;
+  width: 100px;
+  background-color: lightblue;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.main-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: lightgray;
+}
+
+.ausgaben{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

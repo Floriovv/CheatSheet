@@ -1,0 +1,141 @@
+.logo{
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 400px;
+    width: 400px;
+    background-image: url(../img/CelinaPB2.jpeg);
+    background-position-x: -100px;
+    background-position-y: -400px;
+    background-repeat: no-repeat;
+}
+
+.footer{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;  
+    border-top: rgb(224, 16, 16);
+    border-style: solid;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    padding: 12px;
+    background-color: lightgray;
+    font-family: 'Muli', sans-serif;
+    font-size: 17px;
+}
+
+li{
+    float: left;
+}
+
+a li{
+    display: block;
+    padding: 12px;
+    background-color: lightgray;
+    font-family: 'Muli', sans-serif;
+    font-size: 17px;
+}
+
+a li:hover{
+    background-color: rgb(167, 48, 48);
+}
+
+.bckgrd{
+    background-image: url(../img/f46b94b6-8639-4b08-9061-724febba1450.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    width: 1430px;
+    height: 450px;
+    background-size: cover;
+}
+
+.bckgrd2{
+    background-image: url(../img/CelinaSnack4.jpeg);
+    background-repeat: no-repeat;
+    width: 1430px;
+    height: 1530px;
+    background-size: contain;
+    background-position-y: 65px;
+    
+}
+
+nav{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    display: block;
+}
+
+h1{
+    display: block;
+    margin-top: 20px;
+    margin-left: 500px;
+    font-family: 'Muli', sans-serif;
+    margin-left: 550px;
+}
+
+h2{
+    font-family: 'Muli', sans-serif;
+    float: inline-end;
+    margin-left: 570px;
+}
+
+p{
+    font-family: 'Muli', sans-serif;
+    font-size: 17px;
+    border: solid black 1px;
+    background-color: rgb(167, 54, 54);
+    text-align: center;
+    text-shadow: 1px 1px 20px silver;
+    width: 700px;
+}
+
+.snack1{
+    height: 500px;
+    width: 550px;
+    cursor: zoom-in;
+}
+
+.paragrrechts{
+    float: right;
+    background-color: rgb(167, 54, 54);
+    margin-left: auto;
+
+}
+
+.floatleft{
+    float: left;
+}
+
+.hanf{
+    background-image: url(../img/CelinaSnack3.jpeg);
+    display: block;
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    border-radius: 30%;
+}
+
+.zutat1{
+    float: right;
+    margin-right: 50px;
+}
+
+th{
+    border-style: solid;
+    vertical-align: middle;
+    word-spacing: 10px;
+}
+
+table{
+    border-collapse: collapse;
+}
+

@@ -1,0 +1,91 @@
+.button
+    background-color: $color-black
+    border: 0
+    border-radius: 4px
+    color: $color-white
+    cursor: pointer
+    display: inline-block
+    font-size: inherit
+    font-weight: 500
+    padding: 12px 24px
+    text-decoration: none
+
+    &:focus,
+    &:hover
+        background-color: $color-gray-dark
+        box-shadow: $box-shadow
+        outline: 0
+
+    &:active
+        background-color: $color-black
+
+    &--secondary
+        @extend .button
+        background-color: $color-blue
+
+        &:focus,
+        &:hover
+            background-color: $color-blue-light
+
+        &:active
+            background-color: $color-blue
+    
+    &--inverted
+        @extend .button
+        background-color: $color-white
+        box-shadow: none
+        color: $color-black
+        
+        &:focus,
+        &:hover
+            background-color: $color-gray-light
+            
+        &:active
+            background-color: $color-white
+
+    &--link,
+    &--outline
+        @extend .button
+        background-color: transparent
+        border: 1px solid $color-black
+        color: $color-black
+        padding: (12px - 1) (24px - 1)
+
+        &:focus,
+        &:hover
+            background-color: rgba($color-black, .05)
+
+        &:active
+            background-color: rgba($color-black, .15)
+
+        &.button--secondary
+            border-color: $color-blue
+            color: $color-blue
+            
+            &:focus,
+            &:hover
+                background-color: rgba($color-blue, .05+.03)
+
+            &:active
+                background-color: rgba($color-blue, .15+.1)
+        
+        &.button--inverted
+            border-color: $color-white
+            box-shadow: none
+            color: $color-white
+            
+            &:focus,
+            &:hover
+                background-color: rgba($color-white, .05+.02)
+                
+            &:active
+                background-color: rgba($color-white, .15+.01)
+
+    &--link
+        border: 0
+        box-shadow: none !important
+        padding: 12px 24px
+
+    &.disabled
+        opacity: .5
+        pointer-events: none

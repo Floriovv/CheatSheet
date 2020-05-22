@@ -1,0 +1,96 @@
+.radio
+  display: inline-block
+  position: relative
+  margin-right: 64px
+
+  input[type="radio"]
+    display: none
+    padding-left: 32px
+
+    &:checked ~ span:after
+      transform: translate(-50%, -50%) scale(1)
+
+  span
+    height: 16px
+    width: 16px
+    border-radius: 50%
+    border: 4px solid $color-black
+    display: block
+    position: absolute
+    left: 0
+    top: 8px
+
+    &:after
+      content: ""
+      height: 8px
+      width: 8px
+      background-color: $color-black
+      display: block
+      position: absolute
+      left: 50%
+      top: 50%
+      transform: translate(-50%, -50%) scale(0)
+      border-radius: 50%
+      transition: 300ms ease-in-out 0s
+
+.check-anim
+  /* 2:3 ratio */
+  // animation: 2s ease alternate both infinite animCheck
+  border-bottom: 8px solid black
+  border-right: 8px solid black
+  height: 50px
+  margin-top: 0
+  width: 33px
+  margin-right: 0
+  transform: rotate(45deg)
+  display: none
+
+.checkbox
+  display: inline-block
+  position: relative
+  margin-right: 64px
+
+  input[type="checkbox"]
+    display: none
+    padding-left: 32px
+
+    &:checked::after
+      background-color: black
+      
+  span
+    height: 16px
+    width: 16px
+    border: 2px solid $color-black
+    display: block
+    position: absolute
+    left: 0
+    top: 8px
+
+@keyframes animCheck
+  0%
+    border-bottom: 8px solid black
+    height: 0
+    margin-top: 50px
+    width: 0
+    margin-right: 33px
+  25%
+    border-bottom: 8px solid black
+    border-right: 8px solid black
+    height: 0
+    margin-top: 50px
+    width: 33px
+    margin-right: 0
+  50%
+    border-bottom: 8px solid black
+    border-right: 8px solid black
+    height: 50px
+    margin-top: 0
+    width: 33px
+    margin-right: 0
+  100%
+    border-bottom: 8px solid black
+    border-right: 8px solid black
+    height: 50px
+    margin-top: 0
+    width: 33px
+    margin-right: 0

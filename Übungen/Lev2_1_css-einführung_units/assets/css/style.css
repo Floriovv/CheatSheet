@@ -1,0 +1,55 @@
+html{
+    font-size: 5px;
+}
+
+h2{
+    font-size: 2em;
+}
+
+ol, ul{
+    margin-bottom: 0.5em;
+    padding: 3em;
+    border: 0.3em solid black;
+    border-radius: 1em;
+    color: red;
+    font-size: 1em;
+}
+
+ol li{
+    height: 2em;
+}
+
+ol li:first-child{
+    font-size: 20px;
+}
+
+ol li:nth-child(2){
+    font-size: 30px;
+}
+
+ol li:last-child{
+    font-size: 40px;
+}
+
+li{
+    padding-left: 1rem;
+}
+
+ul li{
+    height: 2em;
+}
+
+ul li:first-child{
+    font-size: 1rem;
+    width: 5rem;
+}
+
+ul li:nth-child(2){
+    font-size: 2rem;
+    width: 7.5rem;
+}
+
+ul li:last-child{
+    font-size: 5rem;
+    width: 10rem;
+}

@@ -1,0 +1,83 @@
+h1::first-letter{
+    color: #00796B;
+    font-size: 3em;
+}
+
+h1:hover::first-letter{
+    color: red;
+    font-size: 4em;
+}
+
+li:first-child::before{
+    content: url(/assets/img/no.png);
+}
+
+li:first-child::after{
+    content: url(/assets/img/book.png);
+}
+
+li:first-child{
+    text-decoration: underline;
+    background-color: red;
+}
+
+li:nth-child(2)::before{
+    content: url(/assets/img/organize.png);
+}
+
+li:nth-child(2)::after{
+    content: url(/assets/img/no.png);
+}
+
+li:nth-child(2){
+    text-decoration: underline;
+    background-color: red;
+}
+
+li:nth-child(3)::before{
+    content: url(/assets/img/eat.png);
+}
+
+li:nth-child(3)::after{
+    content: url(/assets/img/check.png);
+}
+
+li:nth-child(3){
+    text-decoration: line-through;
+}
+
+li:nth-child(4)::before{
+    content: url(/assets/img/organize.png);
+}
+
+li:nth-child(4)::after{
+    content: url(/assets/img/check.png);
+}
+
+li:nth-child(4){
+    text-decoration: line-through;
+}
+
+li:nth-child(5)::before{
+    content: url(/assets/img/organize.png);
+}
+
+li:nth-child(5)::after{
+    content: url(/assets/img/check.png);
+}
+
+li:nth-child(5){
+    text-decoration: line-through;
+}
+
+li:last-child::before{
+    content: url(/assets/img/bill.png);
+}
+
+li:last-child::after{
+    content: url(/assets/img/check.png);
+}
+
+li:last-child{
+    text-decoration: line-through;
+}

@@ -1,0 +1,61 @@
+h3:hover{
+    color: red;
+}
+
+li:first-child{
+    font-family: Tahoma;
+    color: #4E342E;
+}
+
+li:nth-last-child(2){
+    font-family: 'Montserrat', sans-serif;
+    color: #689F38;
+}
+
+li:last-child{
+    font-family: 'Raleway', sans-serif;
+    color: #EF5350;
+}
+
+p:first-child{
+    color: #999;
+    font-size: 1.6em;
+}
+
+p:nth-last-child(2){
+    font-size: 1.6em;
+}
+
+p:nth-last-child(3){
+    font-size: 1.6em;
+    color: #0277bd;
+}
+
+p:nth-last-child(4){
+    font-size: 1.6em;
+}
+
+p:nth-last-child(5){
+    font-size: 1.6em;
+    color: #0277bd;
+}
+
+button{
+    background-image: linear-gradient(to top right, #333,red,yellow);
+}
+
+button:hover{
+    height: 30px;
+    width: 170px;
+    color: black;
+    font-size: large;
+    background-image: linear-gradient(to top right, #444,blue,green);
+}
+
+button:visited{
+    background-image: linear-gradient(to top right, #888,orange,pink);
+}
+
+button:active{
+    background-image: linear-gradient(to top right, #888,orange,pink);
+}

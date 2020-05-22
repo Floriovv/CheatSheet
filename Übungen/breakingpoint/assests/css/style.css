@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  background-image: url(https://heise.cloudimg.io/width/1019/q50.png-lossy-50.webp-lossy-50.foil1/_www-heise-de_/imgs/18/1/4/5/4/0/8/7/HD_2D00_Windows_2D00_XP_2D00_Bliss_2D00_Wallpaper_2D00_Backgrounds-643x367-72cac5766d17a1ff.jpeg);
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+  @media screen and (max-width: 900px) {
+    h1 {
+      background-image: url(https://i.computer-bild.de/imgs/1/1/1/6/5/8/7/1/Screenshot-1-Windows-10-Wallpaper-Light-Theme-864x576-7e99451c1b3f4a73.jpg);
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    h1 {
+      background-image: url(https://wallpaperstock.net/wallpapers/thumbs1/35396hd.jpg);
+    }
+  }
+
+  @media screen and (max-width: 300px) {
+    h1 {
+      background-image: url(https://windowsarea.de/wp-content/uploads/2016/05/Windows-95-l%C3%A4uft-auf-Xbox-One-Dev-Kit.jpg);
+    }
+  }

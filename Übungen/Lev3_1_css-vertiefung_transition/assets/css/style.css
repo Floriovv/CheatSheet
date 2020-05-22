@@ -1,0 +1,36 @@
+.kreisbig{
+  height: 100px;
+  width: 100px;
+  background-color: pink;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+}
+
+p{
+  margin: 0;
+  padding-top: 42px;
+}
+
+.kreisbig:active{
+  margin-left: 100px;
+  left: 100px;
+  transition-duration: 0.5s;
+}
+
+.kreissmall{
+  left: 60px;
+  height: 60px;
+  width: 60px;
+  background-color: rgba(0, 0, 255, 0.582);
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 120px;
+}
+
+.kreisbig:active .kreissmall{
+  margin-left: 400px;
+  transition: all;
+  transition-duration: 2s;
+  transition-delay: 1s;
+}

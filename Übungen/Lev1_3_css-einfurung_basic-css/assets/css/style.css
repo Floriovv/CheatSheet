@@ -1,0 +1,31 @@
+nav ul{
+    background-color: darkgray;
+    color: darkred;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    background-color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, a{
+    color: darkred;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dragon600x600 {
+    height: 600px;
+    width: 600px;
+    
+}
+
+.dragon800x600 {
+    height: 600px;
+    width: 800px;
+}
+
+p, h4{
+    font-family: Arial, Helvetica, sans-serif;
+}
+

@@ -1,0 +1,17 @@
+div{
+    border: 3px solid black;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+p{
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid red;
+    background-color: salmon;
+    width: 500px;
+}
+

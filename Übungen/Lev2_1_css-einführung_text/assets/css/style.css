@@ -1,0 +1,28 @@
+h1{
+    font-size: 48px;
+    background-color: lightgray;
+    text-shadow: 1px 1px 0 black;
+    Font-Family: Tahoma;
+}
+
+h1+p{
+    text-indent: 10px;
+    word-spacing: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p+p{
+    text-indent: 30px;
+    word-spacing: 40px;
+}
+
+h2{
+letter-spacing: 10px;
+text-shadow: 1px 1px 0 black;
+}
+
+h2~p{
+background-color: blue;
+line-height: 10px;
+}
+

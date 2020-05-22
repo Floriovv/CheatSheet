@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
+body {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  border-bottom: 1px solid #333;
+}
+header h1 {
+  text-transform: uppercase;
+  color: #333;
+}
+header nav {
+  text-transform: uppercase;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+header nav ul li {
+  padding-right: 20px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+section {
+  margin-top: 40px;
+  padding: 0 10%;
+}
+section article {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-bottom: 20px;
+}
+section article img {
+  width: 100%;
+}
+section article div {
+  padding: 3%;
+  align-self: center;
+}
+section article div h2 {
+  margin-top: 0;
+  font-size: 2em;
+  color: #333;
+}
+section article div p {
+  color: #777;
+  font-size: 0.9em;
+}
+section article div .button, section article div .button-2 {
+  display: block;
+  text-align: center;
+  padding: 10px 30px;
+  background: #5d47d7;
+  text-decoration: none;
+  color: #ffffff;
+}
+section article div .button-2 {
+  background: darkblue;
+}
+
+/*# sourceMappingURL=main.css.map */

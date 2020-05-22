@@ -1,0 +1,28 @@
+h2{
+    color: red;
+}
+
+p{
+    font-size: 16px;
+}
+
+h2, p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+img{
+    width: 100px;
+    border: 2px solid green;
+    border-radius: 50%;
+}
+
+div{
+    background-color: lightgrey;
+}
+
+div p:first-of-type{
+    color: green;
+}
+
+
+

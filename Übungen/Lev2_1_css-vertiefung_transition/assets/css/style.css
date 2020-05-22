@@ -1,0 +1,47 @@
+.img{
+  height: 400px;
+  width: 400px;
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 250px;
+}
+
+.imgcontainer{
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 300px;
+  height: 500px;
+  width: 500px;
+  background-color: lightgray;
+  overflow: hidden;
+}
+
+.shade{
+  background-color: rgba(0, 0, 0, 0.377);
+  text-align: center;
+  display: none;
+  position: absolute;
+  bottom: -500px;
+}
+
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  padding: 192px;
+}
+
+.imgcontainer:hover .shade{
+  animation-name: cover;
+  animation-duration: 1s;
+  display: inline-block;
+  animation-fill-mode: forwards;
+}
+
+@keyframes cover{
+  from {background-color: rgba(0, 0, 0, 0);}
+  to {background-color: rgba(0, 0, 0, 0.527);}
+  from {bottom: -500px;}
+  to {bottom: 0;}
+}
